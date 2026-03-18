@@ -92,16 +92,8 @@ notebooks/
 
 ### Main Findings
 
-| Strategy | Final Reward (M±SD) | Convergence Episode | Cohen's d vs ε-greedy |
-|----------|-------------------|---------------------|---------------------|
-| ε-greedy | -127.3 ± 18.4 | 287 | - |
-| UCB | -118.5 ± 16.2 | 221 | 0.51 |
-| Boltzmann | -115.8 ± 15.9 | 243 | 0.67 |
 
-**Key Insights:**
-- UCB converges 23% faster than ε-greedy (p < 0.01)
-- Boltzmann achieves 9% better final performance (p < 0.05)
-- Trade-off identified: UCB fast convergence, Boltzmann better asymptotic performance
+The environment runs correctly with all three strategies implemented. Preliminary single runs across 500 episodes suggest UCB converges faster than ε-greedy while Boltzmann achieves better asymptotic performance, consistent with theoretical predictions. Full statistical analysis across 10 replications per condition is pending.
 
 ### Visualizations
 
@@ -248,6 +240,6 @@ Project Link: [https://github.com/mohammed-abed/rl-scheduling-benchmark](https:/
 
 
 
-## Note
-This project was primarily developed offline. The full project was uploaded to GitHub upon completion, which may result in commit dates appearing close together. The commit history does not reflect the actual development timeline.
+## Development note: 
 
+This project was built offline and pushed to GitHub upon completion rather than incrementally. I was based in Gaza during this period, where consistent internet access was not reliably available. The commit history does not reflect the actual development timeline."
